@@ -105,7 +105,7 @@ const docTemplate = `{
                     "type": "string"
                 },
                 "id": {
-                    "type": "string"
+                    "type": "integer"
                 },
                 "name": {
                     "type": "string"
@@ -125,7 +125,8 @@ var SwaggerInfo = &swag.Spec{
 	Description:      "This is a sample user API.",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
-
+	LeftDelim:        "{{",
+	RightDelim:       "}}",
 }
 
 func init() {

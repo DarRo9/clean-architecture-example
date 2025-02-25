@@ -5,7 +5,7 @@ definitions:
       email:
         type: string
       id:
-        type: string
+        type: integer
       name:
         type: string
     type: object
