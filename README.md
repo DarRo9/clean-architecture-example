@@ -1,1 +1,5 @@
-# -lean-architecture-example
+go run cmd/main.go
+
+![alt text](<Снимок экрана от 2024-11-08 19-42-35.png>)
+
+![alt text](<Снимок экрана от 2024-11-08 19-42-18.png>)
