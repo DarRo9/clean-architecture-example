@@ -17,12 +17,6 @@ import (
 
 // @title User API
 // @version 1.0
-// @description This is a sample user API.
-// @termsOfService http://swagger.io/terms/
-// @contact.name API Support
-// @contact.email support@example.com
-// @license.name Apache 2.0
-// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
 // @host localhost:8080
 // @BasePath /
 func main() {
@@ -37,8 +31,8 @@ func main() {
 	setupRoutes(userHandler)
 
 	// Start the server
-	log.Println("Server is running on port 8000")
-	log.Fatal(http.ListenAndServe(":8000", nil))
+	log.Println("Server is running on port 8080")
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
 func initDB() *sql.DB {

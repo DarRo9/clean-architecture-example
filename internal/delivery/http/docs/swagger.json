@@ -99,7 +99,7 @@
                     "type": "string"
                 },
                 "id": {
-                    "type": "string"
+                    "type": "int"
                 },
                 "name": {
                     "type": "string"
